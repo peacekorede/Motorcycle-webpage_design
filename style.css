@@ -1,0 +1,157 @@
+body{
+    background-color: whitesmoke;
+     font-family: sans-serif;
+}
+
+.page_wrapper{
+    background-color: rgb(236, 235, 235);
+    width: 75%;
+    margin: 4rem 13rem;
+    color: black;
+  }
+
+.page_header{
+    display: flex;
+    padding: 0px 2rem;
+    justify-content: space-between;
+}
+
+.header{
+    font-family: 'Fleur De Leah', cursive;
+    width:0.8rem;
+     font-size: 2rem;
+     color: brown;
+}
+
+#sub_header{
+   font-size: 0.5rem;
+   font-family: sans-serif;
+   color: black;
+   margin-top: -30px;
+   letter-spacing: 0.2rem;
+}
+
+.nav_items{
+  align-self: center;
+  display: flex; 
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1rem;
+ 
+}
+
+  .nav_item{
+    text-decoration:none;
+    color: black;
+    padding-right: 1.4rem;
+    
+  }
+
+  .nav_item_2{
+    text-decoration: none;
+    color: black;
+    margin-left: 9rem;
+  }
+
+  .message_box{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    margin-bottom: -8.7rem;
+  }
+
+  .message_header{
+    font: 4rem serif;
+    font-weight: 300;
+    width: 60%;
+  }
+  
+  .message_subheader{
+    font: 1rem sans-serif;
+   font-weight: 600;
+  }
+
+ .message{
+  margin-top: 3rem;
+  word-spacing: 0.1rem;
+  font-size: 0.7rem;
+ }
+
+
+ .image_section{
+  display: flex;
+ }
+
+ 
+ #img{
+ 
+  width : 35rem;
+  height: 35rem;
+  border-radius: 50%;
+  margin-left: 19rem;
+  margin-bottom: -250px;
+ 
+ }
+
+ .img_info{
+  margin: 6rem 0px 0px 5rem ;
+  font-size: 0.9rem;
+  font-weight: 700;
+ }
+
+ .color_container{
+  display: flex;
+  margin-top: -0.4rem;
+ }
+
+ .color_1{
+  background-color: black;
+  width : 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+ }
+
+ 
+ .color_2{
+  background-color:rgb(30, 46, 30);
+  width : 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+  margin-right: 1.2rem;
+ }
+
+ 
+ .color_3{
+  background-color: brown;
+  width : 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+ }
+
+ .btn_build{
+  border: 0.1rem solid brown;
+  color: brown;
+  padding: 0.3rem  0.6rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-top: 2rem;
+ }
+
+ .footer{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 6rem;
+  padding-bottom: 11rem;
+  width: 62%;
+  margin-left: 13rem;
+  margin-top: -4rem;
+  font-size: 0.7rem;
+  word-spacing: 0.1rem;
+ }
+
+ #footer_end{
+  font-weight: 799;
+  font-size: 0.7rem;
+ }
